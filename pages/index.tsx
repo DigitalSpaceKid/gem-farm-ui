@@ -104,7 +104,7 @@ const StakePage = () => {
                       sx={{
                         maxHeight: "2.4rem",
                       }}
-                      src="images/gemtransparent.gif"
+                      src="images/divine1.gif"
                     />
                     <Text>
                       NFTs staked:&nbsp;
@@ -168,7 +168,7 @@ const StakePage = () => {
                     onClick={handleClaimButtonClick}
                     disabled={!Number(availableA)}
                   >
-                    Claim{" "}
+                    Claim{" "} 
                     <img
                       sx={{
                         margin: "0 .4rem 0 .8rem",

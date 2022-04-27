@@ -27,7 +27,7 @@ const theme: Theme = {
     primary: "rgb(48, 114, 180, .7)",
     primaryGradient: getGradient("rgb(48, 114, 180, .7)"),
     heading: "rgb(226, 217, 211)",
-    background2: "#1E1E24",
+    background2: "#ADD8E6",
     backgroundGradient: getGradient("rgb(4, 4, 3)"),
     // modes: {
     //   light: {
