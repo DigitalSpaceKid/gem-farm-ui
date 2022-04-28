@@ -128,7 +128,6 @@ const StakePage = () => {
                     <br />
                   </Text>
                 </Flex>
-
                 <Flex
                   sx={{
                     gap: "1.6rem",
