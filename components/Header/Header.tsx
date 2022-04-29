@@ -36,21 +36,16 @@ const Header = ({ farmId, setFarmId }: Props) => {
           <Link href="/" passHref>
             <Flex as="a" sx={{ alignItems: "center", flexDirection: "column" }}>
               <Flex sx={{ alignItems: "center" }}>
-                <Text as="h1" variant="headingSpecial" ml=".4rem">
-                  GEM
-                </Text>
+              
 
                 <img
                   sx={{
                     maxHeight: "4.8rem",
                   }}
-                  src="/images/gemtransparent.gif"
+                  src="/images/divinedogname.png"
                   alt="Gemworks"
                 />
 
-                <Text as="h1" variant="headingSpecial" ml=".4rem">
-                  FARM
-                </Text>
               </Flex>
               {/* <Text
                 sx={{
@@ -62,15 +57,7 @@ const Header = ({ farmId, setFarmId }: Props) => {
               </Text> */}
             </Flex>
           </Link>
-          <Text
-            variant="small"
-            sx={{
-              marginRight: "auto",
-            }}
-          >
-            &nbsp;&nbsp;&nbsp;&#8226;&nbsp;
-            {process.env.NEXT_PUBLIC_CONNECTION_NETWORK}
-          </Text>
+
 
           <Flex
             as="nav"
@@ -116,44 +103,6 @@ const Header = ({ farmId, setFarmId }: Props) => {
               },
             }}
           >
-            <Button
-              sx={{
-                alignSelf: "flex-end",
-                padding: ".8rem",
-
-                ...(!isMobileMenuActive && { display: "none" }),
-              }}
-              onClick={() => setIsMobileMenuActive(false)}
-            >
-              <CloseIcon />
-            </Button>
-            {isChangingFarmId && (
-              <Input
-                sx={{
-                  fontSize: "1.1rem",
-                  padding: ".4rem",
-                  border: "none",
-                  borderBottom: "1px solid",
-                  borderRadius: 0,
-                  width: "auto",
-                }}
-                value={farmId}
-                onChange={(e) => setFarmId(e.target.value)}
-              />
-            )}
-
-            <a
-              tabIndex={0}
-              sx={{
-                margin: "0 auto",
-                fontSize: "1.1rem",
-                whiteSpace: "nowrap",
-              }}
-              onClick={() => setIsChangingFarmId((prev) => !prev)}
-            >
-              (Change Farm ID)
-            </a>
-
             <WalletManager />
           </Flex>
           <Button
