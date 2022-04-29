@@ -104,7 +104,7 @@ const StakePage = () => {
                       sx={{
                         maxHeight: "2.4rem",
                       }}
-                      src="images/divine1.gif"
+                      src="images/divine1.gif" alt="divne1"
                     />
                     <Text>
                       NFTs staked:&nbsp;
@@ -173,7 +173,7 @@ const StakePage = () => {
                         margin: "0 .4rem 0 .8rem",
                         maxHeight: "2.4rem",
                       }}
-                      src="images/icon-list-item.png"
+                      src="images/icon-list-item.png" alt="desc"
                     />
                     {availableA ? (
                       <b>{(availableA / 1000000000).toFixed(2)}</b>

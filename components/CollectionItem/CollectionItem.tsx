@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 import React, { useRef, useState } from "react"
 import { Button, Flex, Text } from "theme-ui"
+import Image from 'next/image';
 
 import { DotsIcon } from "@/components/icons/"
 import useOutsideClick from "@/hooks/useOutsideClick"
@@ -141,7 +142,7 @@ const CollectionItem = (props: Props) => {
           transition: "all .125s linear",
           opacity: isDropdownActive ? 0.7 : 1,
         }}
-        src={externalMetadata.image}
+        src={externalMetadata.image} alt="description of image"
       />
       <Text
         variant="small"

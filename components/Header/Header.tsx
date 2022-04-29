@@ -1,7 +1,7 @@
 /** @jsxImportSource theme-ui */
 import Link from "next/link"
 import { Button, Container, Flex, Input, Text } from "@theme-ui/components"
-
+import Image from 'next/image';
 import WalletManager from "@/components/WalletManager/WalletManager"
 import { Dispatch, SetStateAction, useState } from "react"
 import { CloseIcon, MenuIcon } from "../icons"
