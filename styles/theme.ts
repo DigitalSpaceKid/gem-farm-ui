@@ -23,7 +23,7 @@ const theme: Theme = {
   ...base,
   colors: {
     background: "rgb(4, 4, 3)",
-    text: "#ADD8E6",
+    text: "rgb(173, 216, 230)",
     primary: "rgb(48, 114, 180, .7)",
     primaryGradient: getGradient("rgb(48, 114, 180, .7)"),
     heading: "#8bbbd9",
