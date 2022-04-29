@@ -1,5 +1,6 @@
 /** @jsxImportSource theme-ui */
 import { Flex, Text, Heading, Spinner, Button, Container } from "theme-ui"
+import Image from 'next/image';
 
 import CollectionItem from "@/components/CollectionItem/CollectionItem"
 import useGemFarmStaking from "hooks/useGemFarmStaking"
@@ -100,7 +101,7 @@ const StakePage = () => {
                       justifyContent: "center",
                     }}
                   >
-                    <img
+                    <Image
                       sx={{
                         maxHeight: "2.4rem",
                       }}
@@ -168,7 +169,7 @@ const StakePage = () => {
                     disabled={!Number(availableA)}
                   >
                     Claim{" "} 
-                    <img
+                    <Image
                       sx={{
                         margin: "0 .4rem 0 .8rem",
                         maxHeight: "2.4rem",

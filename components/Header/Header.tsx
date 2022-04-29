@@ -38,7 +38,7 @@ const Header = ({ farmId, setFarmId }: Props) => {
               <Flex sx={{ alignItems: "center" }}>
               
 
-                <img
+                <Image
                   sx={{
                     maxHeight: "4.8rem",
                   }}

@@ -136,7 +136,7 @@ const CollectionItem = (props: Props) => {
         </a>
         {additionalOptions || null}
       </Flex>
-      <img
+      <Image
         sx={{
           borderRadius: ".4rem",
           transition: "all .125s linear",
